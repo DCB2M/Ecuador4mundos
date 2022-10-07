@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: blue;
+    text-shadow: 1px 2px 2px black, 0 0 25px blueviolet, 0 0 5px blueviolet;
+    text-align: center;
+}
+
+section{
+    width: 70%;
+    margin: auto;
+border: dashed;
+padding: 5%;
+}
+
+.lista{
+    background-color: rgb(159, 250, 132);
+
+}
+
+h2{
+    color: blue;
+    text-shadow: 1px 2px 2px black, 0 0 25px blueviolet, 0 0 5px blueviolet;
+    text-align: center;
+}
+.galeria{
+display: flex;
+padding: 5px ;
+}
+img{
+    width: 100%;
+}
+.foto{
+    flex: 25%;
+    padding: 5px;
+}
+.galeria img{
+    margin-top: 5px;
+}
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+}
+p{
+text-align: justify;
+}
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+}
+
+#final h2{
+    font-size: 5vw;
+}
+#final p{
+
+    color: rgb(231, 225, 225);
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
